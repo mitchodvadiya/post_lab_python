@@ -1,3 +1,4 @@
+#  post lab : 1 
 # experiment no : 1
 # code : 1
 
@@ -24,6 +25,7 @@ print("Result is:", result)
 
 ########################################################################################################
 
+# post lab : 2
 # experiment no : 2
 # code : 1
 #Write a python code for calculating the Area and Perimeter of a Rectangle
@@ -91,6 +93,7 @@ print("Temperature in Fahrenheit:", fahrenheit)
 
 ########################################################################################################
 
+post lab : 3
 #experiment no : 3
 #code : 1
 #Write a Python program to reverse a string.
@@ -136,3 +139,4 @@ if words:
     print("Length of last word:", len(words[-1]))
 else:
     print("No words in the sentence.")
+

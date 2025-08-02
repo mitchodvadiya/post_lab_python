@@ -27,24 +27,25 @@ root.mainloop()
 # experiment no : 2;
 # Text Input App (This app allows users to type in a text field and display the typed text on the screen when a button is pressed.)
 
-# from tkinter import *
+from tkinter import *
 
-# # Function to show text when button is clicked
-# def show_text():
-#     user_input = entry.get()            
-#     output_label.config(text=user_input) 
+# Function to show text when button is clicked
+def show_text():
+    user_input = entry.get()            
+    output_label.config(text=user_input) 
 
-# root = Tk()
-# root.title("Text Input App")
-# root.geometry("300x200")
+root = Tk()
+root.title("Text Input App")
+root.geometry("300x200")
 
-# entry = Entry(root, font=("Arial", 14))
-# entry.pack(pady=10)
+entry = Entry(root, font=("Arial", 14))
+entry.pack(pady=10)
 
-# button = Button(root, text="Show Text", command=show_text)
-# button.pack(pady=5)
+button = Button(root, text="Show Text", command=show_text)
+button.pack(pady=5)
 
-# output_label = Label(root, text="", font=("Arial", 14), fg="blue")
-# output_label.pack(pady=10)
+output_label = Label(root, text="", font=("Arial", 14), fg="blue")
+output_label.pack(pady=10)
 
-# root.mainloop()
+root.mainloop()
+
